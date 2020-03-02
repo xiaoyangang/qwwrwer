@@ -1,0 +1,69 @@
+1.php
+数组方法
+字符串方法
+php7特性
+cgi fastcgi php-cgi php-fpm 
+算法 排序 查找（都要会写）
+多线程处理（swoole的使用）websocket  多任务处理
+垃圾回收原理GC
+底层数据结构ZVAL 数值 类型 是否被引用is_ref refcount引用数量
+设计模式（要会写单例，工厂，策略等基本涉及模式，要知道使用的地方）
+框架（ci,thinkphp，laravel）
+
+2.mysql
+表类型（多记住几个类型）
+myisam 特点
+innodo 特点
+事务特性，级别（要记住）
+脏读，幻读，不可重复读（要记住）
+大数据库处理千万级表查询优化方法有哪些，需要根据业务设计
+索引使用，聚合索引使用
+索引的结构，索引的使用场景与效率
+主从、集群了解原理
+explain的使用，每一列的意思
+查询的一些效率问题（查笔试题）
+
+3.redis
+存储类型有哪些
+主从原理
+redis特性
+秒杀怎么使用redis
+排行榜使用zset
+备份的方法，RDB快照,AOF日志，使用的策略
+
+4.mq
+高并发要使用消息中间件分化任务，比如批量发邮件，推送消息的方案
+消息队列要了解下topic,queue
+使用场景要知道
+其他消息中间件（RocketMQ、Kafka、activeMQ等，了解其中一个，当前使用较多的是kafka）
+
+5.linux
+常用命令
+crontab
+shell编程
+
+6.nginx
+负载均衡的配置，以及配置策略有哪些,原理
+怎么调用的php(cgi fastcgi php-cgi php-fpm 和这些有关)
+其他web服务器（apache了解）
+
+7.系统设计
+针对高并发
+	1.业务拆分
+	2.分布式缓存
+	3.负载均衡
+	5.数据库集群，分表分库，读写分离
+	6.分布式存储，Elasticsearch（要了解一下）
+	7.MQ消息中间件分解任务RocketMQ、Kafka
+	8.资源cdn分发
+
+8.高可用，分布式要了解
+进程，线程，协程的定义和关系
+zookeeper,VIP虚拟ip漂移，DOCKER,分布式设计，Elasticsearch等
+
+9.http,tcp/ip,udp,socket等
+Osi模型，ip，http都是哪一层的
+
+xss
+csrf
+sql注入 
